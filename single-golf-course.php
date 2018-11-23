@@ -31,7 +31,7 @@ endwhile;
   <article class="posts__item">
   <?php if (isset($post_meta['text']) && $post_meta['text'] != '' ): ?>
     <script defer="" type="text/javascript" src="https://paim.rezdy.com/pluginJs"></script>
-    <iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="<?php echo $post_meta['text']; ?>"></iframe>
+    <iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://paim.rezdy.com/273847/<?php echo $post_meta['text']; ?>?iframe=true"></iframe>
   <?php endif; ?>
 
     <?php the_title(); ?>
